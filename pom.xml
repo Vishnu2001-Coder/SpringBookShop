@@ -24,6 +24,7 @@
 	</properties>
 
 	<dependencies>
+		<!-- Source: https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc -->
 
 		<!-- ✅ Web (REST APIs + Embedded Tomcat) -->
 		<dependency>
@@ -62,6 +63,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.cloud.db.jdbc</groupId>
+			<artifactId>ngdbc</artifactId>
+			<version>2.27.7</version>
 		</dependency>
 
 	</dependencies>
